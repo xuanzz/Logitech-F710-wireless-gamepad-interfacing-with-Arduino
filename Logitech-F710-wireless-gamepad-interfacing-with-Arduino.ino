@@ -61,12 +61,10 @@ void loop()
   Serial.print("Left X: ");
   Serial.print(lxa);
   Serial.print("   Left Y");
-  Serial.println(lya);
-  Serial.print("Right X: ");
-  Serial.print(lxa);
+  Serial.print(lya);
+  Serial.print("   Right X: ");
+  Serial.print(rxa);
   Serial.print("   Right Y");
-  Serial.println(lya);
-  Serial.print("Blue");
-  Serial.println(blue);
+  Serial.println(rya);
 
 }
